@@ -1,0 +1,16 @@
+.icons {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.main-list {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 75px;
+}
