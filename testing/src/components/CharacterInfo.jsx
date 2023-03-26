@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./characterInfo.css";
-const CharacterInfo = ({ charName, charImage, numIssues, charDescription }) => {
+const CharacterInfo = ({ charName, charImage, numIssues }) => {
   return (
     <tr>
       <td>
@@ -11,7 +11,6 @@ const CharacterInfo = ({ charName, charImage, numIssues, charDescription }) => {
       </td>
       <td>{charName}</td>
       <td>{numIssues} </td>
-      <td>{charDescription}</td>
     </tr>
   );
 };

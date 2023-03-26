@@ -1,6 +1,7 @@
-body {
+/* body {
   background: black;
-}
+  align-items: center;
+} */
 
 ul {
   list-style: none;
@@ -8,8 +9,20 @@ ul {
 }
 
 .whole-page {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
   text-align: center;
-  background: black;
-  color: white;
 }
