@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./SummaryStatistics.css";
 
 const SummaryStatistics = ({ list }) => {
   const totalCharacters = list.length;
@@ -24,9 +25,18 @@ const SummaryStatistics = ({ list }) => {
 
   return (
     <div className="summary-stats">
-      <div>Total Characters: {totalCharacters}</div>
-      <div>Average Comics per Character: {avgComics.toFixed(2)}</div>
-      <div>Most Common First Letter: {mostCommonLetter}</div>
+      <div className="summary-box">
+        <h3>Total Characters:</h3>
+        <p>{totalCharacters}</p>
+      </div>
+      <div className="summary-box">
+        <h3>Average Comics per Character:</h3>
+        <p>{avgComics.toFixed(2)}</p>
+      </div>
+      <div className="summary-box">
+        <h3>Most Common First Letter:</h3>
+        <p>{mostCommonLetter}</p>
+      </div>
     </div>
   );
 };

@@ -55,52 +55,56 @@ function App() {
       <div className="whole-page">
         <h1>Marvel Characters</h1>
         <SummaryStatistics list={list} />
-        <div>
-          <label htmlFor="nameInput">Character Name:</label>
-          <input
-            type="text"
-            id="nameInput"
-            value={nameInput}
-            onChange={(e) => setNameInput(e.target.value)}
-          />
+        <div className="input-container">
+          <div>
+            <label htmlFor="nameInput">Character Name:</label>
+            <input
+              type="text"
+              id="nameInput"
+              value={nameInput}
+              onChange={(e) => setNameInput(e.target.value)}
+            />
+          </div>
+          <div>
+            <label htmlFor="comicInput">Comic Name:</label>
+            <input
+              type="text"
+              id="comicInput"
+              value={comicInput}
+              onChange={(e) => setComicInput(e.target.value)}
+            />
+          </div>
+          <div>
+            <label htmlFor="issueInput">Number of Issues:</label>
+            <input
+              type="number"
+              id="issueInput"
+              value={issueInput}
+              onChange={(e) => setIssueInput(e.target.value)}
+            />
+          </div>
         </div>
-        <div>
-          <label htmlFor="comicInput">Comic Name:</label>
-          <input
-            type="text"
-            id="comicInput"
-            value={comicInput}
-            onChange={(e) => setComicInput(e.target.value)}
-          />
+        <div className="list">
+          <table>
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Character Name</th>
+                <th>Number of Issues</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredResults.map((character) => (
+                <CharacterInfo
+                  key={character.id}
+                  charName={character.name}
+                  charImage={character.thumbnail}
+                  numIssues={character.comics.returned}
+                />
+              ))}
+            </tbody>
+          </table>
         </div>
-        <div>
-          <label htmlFor="issueInput">Number of Issues:</label>
-          <input
-            type="number"
-            id="issueInput"
-            value={issueInput}
-            onChange={(e) => setIssueInput(e.target.value)}
-          />
-        </div>
-        <table>
-          <thead>
-            <tr>
-              <th>Image</th>
-              <th>Character Name</th>
-              <th>Number of Issues</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredResults.map((character) => (
-              <CharacterInfo
-                key={character.id}
-                charName={character.name}
-                charImage={character.thumbnail}
-                numIssues={character.comics.returned}
-              />
-            ))}
-          </tbody>
-        </table>
       </div>
     </div>
   );
