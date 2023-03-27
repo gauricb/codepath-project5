@@ -1,4 +1,4 @@
-# Web Development Project 5 - *Data Dashboard Part 1*
+# Web Development Project 5 - _Data Dashboard Part 1_
 
 Submitted by: **Gauri Barar**
 
@@ -13,32 +13,32 @@ The following **required** functionality is completed:
 - [x] **The list displays a list of data fetched using an API call**
 - [x] **Data uses the useEffect React hook and async/await syntax**
 - [x] **The app dashboard includes at least three summary statistics about the data such as**
-  - [x] *Total Characters*
-  - [x] *Average number if comics per character*
-  - [x] *Most common first letter of name*
+  - [x] _Total Characters_
+  - [x] _Average number if comics per character_
+  - [x] _Most common first letter of name_
 - [x] **A search bar allows the user to search for an item in the fetched data**
 - [x] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
 
 The following **optional** features are implemented:
 
 - [x] Multiple filters can be applied simultaneously
-- [x] Filters use different input types such as a text input, a selection, or a slider (*it uses text and number types)
-- [x] The user can enter specific bounds for filter values (*number of issues shows characters with more than the input number issues*)
+- [x] Filters use different input types such as a text input, a selection, or a slider (\*it uses text and number types)
+- [x] The user can enter specific bounds for filter values (_number of issues shows characters with more than the input number issues_)
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='100px' height='100px' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+
+GIF created with ...
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
