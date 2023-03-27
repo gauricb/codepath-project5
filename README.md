@@ -22,7 +22,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] Multiple filters can be applied simultaneously
-- [x] Filters use different input types such as a text input, a selection, or a slider (\*it uses text and number types)
+- [x] Filters use different input types such as a text input, a selection, or a slider (*it uses text and number types*)
 - [x] The user can enter specific bounds for filter values (_number of issues shows characters with more than the input number issues_)
 
 The following **additional** features are implemented:
@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='100px' height='100px' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='300px' height='300px' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
