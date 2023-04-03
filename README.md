@@ -1,3 +1,34 @@
+# Web Development Project 6 - _*Data Dashboard Part 2*_
+
+Submitted by: **Gauri Barar**
+
+This web app: **Takes you to individual pages for each character. **
+
+Time spent: **6** hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] **The app includes at least two unique chart developed using the fetched data that tell an interesting story**
+- [x] **Clicking on an item in the list view displays more details about it**
+- [x] **Clicking on an item has a direct, unique link to that item's detail view page** (character id)
+
+The following **optional** features are implemented:
+
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you added to improve the site's functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 # Web Development Project 5 - _Data Dashboard Part 1_
 
 Submitted by: **Gauri Barar**
@@ -22,7 +53,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] Multiple filters can be applied simultaneously
-- [x] Filters use different input types such as a text input, a selection, or a slider (*it uses text and number types*)
+- [x] Filters use different input types such as a text input, a selection, or a slider (_it uses text and number types_)
 - [x] The user can enter specific bounds for filter values (_number of issues shows characters with more than the input number issues_)
 
 The following **additional** features are implemented:

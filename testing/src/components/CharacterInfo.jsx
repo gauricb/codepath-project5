@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./characterInfo.css";
-const CharacterInfo = ({ charName, charImage, numIssues }) => {
+import { Link } from "react-router-dom";
+
+const CharacterInfo = ({ charName, charImage, numIssues, charId }) => {
   return (
     <tr>
       <td>
@@ -11,6 +13,15 @@ const CharacterInfo = ({ charName, charImage, numIssues }) => {
       </td>
       <td>{charName}</td>
       <td>{numIssues} </td>
+      <td>
+        <Link
+          style={{ color: "white" }}
+          to={`/CharacterDetails/${charId}`}
+          key={charId}
+        >
+          View Details
+        </Link>
+      </td>
     </tr>
   );
 };

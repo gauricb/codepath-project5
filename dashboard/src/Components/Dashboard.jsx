@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "react-bootstrap";
 import { Container, Row, Col, InputGroup, FormControl } from "react-bootstrap";
 import { getCharacters } from "./api";
+
 import "./Dashboard.css";
 
 const Dashboard = () => {
